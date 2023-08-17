@@ -1,9 +1,12 @@
 # front_intro
- we will learn about html css and js
 
-hi front_intro
-jhvgvg
-
+command github
+create project
+clone project
+commit edit project
+push from vs code to github
+pull
+branch
 
 
 
