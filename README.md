@@ -20,3 +20,8 @@ branch
 
 Inline-style: 
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+| class #      | Title | Link    |
+| :---        |    :----:   |          ---: |
+| class 1      | github intro       | [click here](./class/class1)   |
+|    |         |       |
