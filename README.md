@@ -23,5 +23,5 @@ Inline-style:
 
 | class #      | Title | Link    |
 | :---        |    :----:   |          ---: |
-| class 1      | github intro       | [click here](./class/class1.md)   |
+| class 1      | github intro       | [click here](./classes/class1.md)   |
 |    |         |       |
