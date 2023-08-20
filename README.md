@@ -25,3 +25,7 @@ Inline-style:
 | :---        |    :----:   |          ---: |
 | class 1      | github intro       | [click here](./classes/class1.md)   |
 |    |         |       |
+
+Element [tag]
+inline style (in tag) 
+style tag (in page style) tag name
