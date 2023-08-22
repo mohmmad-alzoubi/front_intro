@@ -29,3 +29,4 @@ Inline-style:
 Element [tag]
 inline style (in tag) 
 style tag (in page style) tag name
+table 5 thead 10 td
