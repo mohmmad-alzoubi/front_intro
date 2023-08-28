@@ -4,14 +4,13 @@ body,h1{
 #navBar{
     width: 100%;
     height: 100px;
-    background-color: blue;
+    background-color: gray;
     color: white;
-    text-align: center;
     letter-spacing: 3px;
-    box-shadow: 0 0 5px #4b4bee,
-    0 0 15px #4b4bee,
-    0 0 30px #4b4bee,
-    0 0 60px #4b4bee;
+    box-shadow: 0 0 5px #717177,
+    0 0 15px #717177,
+    0 0 30px #717177,
+    0 0 60px #717177;
 }
 
 button{
@@ -20,8 +19,10 @@ button{
     padding: 10px;
     margin: 5px;
     border-radius: 12px;
+    margin: 0px 20px;
 }
 a{
+    width: 70%;
     text-align: center;
     text-decoration: none;
     color: white;
@@ -31,5 +32,60 @@ a:hover{
     letter-spacing: 3px;
     transition: 0.5s;
 }
-
+#footer{
+    background-color: gray;
+    text-align: center;
+    margin: 0px;
+    margin-top: 10px;
+    position: fixed;
+    bottom: 0px;
+    height: 100px;
+    width: 100%;
+    box-shadow: 0 0 5px #717177,
+    0 0 15px #717177,
+    0 0 30px #717177,
+    0 0 60px #717177;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    
+}
+.navRightMenu{
+    float: right;
+    margin: 10px;
+    margin-top: 20px;
+}
+.menuButton{
+    background-color: brown;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.menuButton:active{
+    background-color: blue;
+}
+.h{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(134, 134, 182);
+}.c{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(54, 54, 85);
+}.a{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(50, 50, 69);
+}.n{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(32, 32, 39);
+}
+/* responsive design */
 
