@@ -28,13 +28,15 @@ a{
     color: white;
     padding: 50px;
 }
-a:hover{
+button:hover{
     letter-spacing: 3px;
     transition: 0.5s;
 }
 #footer{
     background-color: #66A4FF;
-    text-align: center;
+    text-align: right;
+    margin: 0px;
+    margin-top: 10px;
     position: fixed;
     bottom: 0px;
     height: 100px;
@@ -68,28 +70,6 @@ a:hover{
 .menuButton:active{
     background-color: blue;
 }
-img{
-    width: 20%;
-    height: 260px;
-    margin-top: 70px;
-    margin-left: 60px;
-    border-radius: 20%;
+.active{
+    background-color: green;
 }
-.contentHeader{
-    width: 40%;
-    height: 300px;
-    float: right;
-    margin-top: 60px;
-    margin-right: 60px;
-    text-align: center;
-    border-radius: 2%;
-    background-color: rgb(204, 199, 199);
-}
-.contentHeader:hover{
-    background-color: #66A4FF;
-    letter-spacing: 3px;
-    transition: 0.9s;
-}
-
-/* responsive design */
-
