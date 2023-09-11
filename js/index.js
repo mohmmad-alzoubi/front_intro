@@ -98,6 +98,8 @@ myFormSum.addEventListener('submit',function(e){
     }else{
         myResult.innerHTML = "Error the result is less than 100"
     }
+    myInput1.value = ""
+    myInput2.value = ""
 })
 
 var myPrimeNumberOrNot = document.getElementsByClassName('primeNumberOrNot')[0]
@@ -111,6 +113,7 @@ myPrimeNumberOrNot.addEventListener('submit',function(e){
     }else{
         myResult1.innerHTML = "number is prime"
     }
+    prime.value = ""
 })
 
 var evenOrOddNumber = document.getElementsByClassName('evenOrOddNumber')[0]
@@ -124,4 +127,5 @@ evenOrOddNumber.addEventListener('submit',function(e){
     }else{
         myResult2.innerHTML = "number is even"
     }
+    evenOrOdd.value = ""
 })
