@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.menuItem1{
+    grid-area: nav;
+}
+.menuItem2{
+    grid-area: left;
+}
+.menuItem3{
+    grid-area: content;
+}
+.menuItem4{
+    grid-area: right;
+}
+.menuItem5{
+    grid-area: footer;
+}
+.gridMenu{
+    height: 50px;
+    display: grid;
+    grid-template-areas: "nav nav nav nav nav nav"
+                            "left left content content right right"
+                            "footer footer footer footer right right";
+    text-align: center;
+    grid-gap: 10px;                                                   
+    background-color: #fff;
+    color: #444;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
