@@ -107,13 +107,18 @@ var prime = document.getElementsByClassName('prime')[0]
 var myResult1 = document.getElementsByClassName('result1')[0]
 
 myPrimeNumberOrNot.addEventListener('submit',function(e){
-    e.preventDefault()
-    if(prime.value%2 == 0){
-        myResult1.innerHTML = "number is not prime"
-    }else{
-        myResult1.innerHTML = "number is prime"
+    e.preventDefault();
+
+    var primeOrNot = parseInt(prime.value);
+    for(let i=2;i<primeOrNot;i++){
+        if(primeOrNot%i == 0){
+            myResult1.innerHTML = "number is not prime"
+            break
+        }else{
+            myResult1.innerHTML = "number is prime"
+        }
+        prime.value = ""
     }
-    prime.value = ""
 })
 
 var evenOrOddNumber = document.getElementsByClassName('evenOrOddNumber')[0]
@@ -129,3 +134,21 @@ evenOrOddNumber.addEventListener('submit',function(e){
     }
     evenOrOdd.value = ""
 })
+
+let text = ""
+let num = 0
+while(num < 5){
+    text += "<br>The number is " + num
+    num++
+}
+    
+document.getElementById('text').innerHTML = text
+
+let texts = ""
+let nums = 0
+do{
+    texts += "<br>The number is " + nums
+    nums++
+}while(nums > 5)
+    
+document.getElementById('texts').innerHTML = texts
