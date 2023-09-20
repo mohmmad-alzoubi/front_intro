@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML TAGS</title>
     <link rel="stylesheet" href="../css/navAndFooter.css">
+    <link rel="stylesheet" href="../css/image.css">
+    <link rel="icon" href="media/icon.jpg" class="icon">
     <link rel="icon" href="media/icon.jpg" class="icon">
 </head>
 <body>
@@ -15,15 +17,35 @@
             <a class="home" href="../index.html"><button class="menuButton">Home</button></a>
             <a class="contact" href="../pages/contact.html"><button class="menuButton">Contact</button></a>
             <a class="about" href="../pages/about.html"><button class="menuButton">About</button></a>
-            <a class="news" href="../pages/news.html"><button class="menuButton active">News</button></a>
-            <a class="grid" href="../pages/grid.html"><button class="menuButton">JS</button></a>
-            <a class="grid" href="../pages/image.html"><button class="menuButton">image</button></a>
+            <a class="news" href="../pages/news.html"><button class="menuButton">News</button></a>
+            <a class="grid" href="/pages/grid.html"><button class="menuButton">JS</button></a>
+            <a class="grid" href="/pages/image.html"><button class="menuButton active">image</button></a>
         </div>
     </div>
     <!-- end navbar -->
     <!-- content -->
     <div id="content">
-        <h1>News</h1>
+        <div>
+            <img src="../media/image.png" alt="" class="img">
+        </div>
+        <div>
+            <button onclick="up1()" class="button1">up</button>
+        </div>
+        <div>
+            <button onclick="left1()" class="button2">left</button>
+            <button onclick="right1()" class="button3">right</button>
+        </div>
+        
+        <div>
+            <button onclick="down1()" class="button4">down</button>
+        </div>
+        <div id="newPara">
+
+        </div>
+        
+            
+            
+            
     </div>
     <!-- end content -->
     <!-- footer -->
@@ -31,13 +53,10 @@
         <a class="home" href="../index.html"><button class="menuButton">Home</button></a>
         <a class="contact" href="../pages/contact.html"><button class="menuButton">Contact</button></a>
         <a class="about" href="../pages/about.html"><button class="menuButton">About</button></a>
-        <a class="news" href="../pages/news.html"><button class="menuButton active">News</button></a>
-        <a class="grid" href="../pages/grid.html"><button class="menuButton">JS</button></a>
-        <a class="grid" href="../pages/image.html"><button class="menuButton">image</button></a>
-    </div>
-    <div>
-        
+        <a class="news" href="../pages/news.html"><button class="menuButton">News</button></a>
+        <a class="grid" href="../pages/image.html"><button class="menuButton active">image</button></a>
     </div>
     <!-- end footer -->
+    <script src="../js/mian.js"></script>
 </body>
 </html>

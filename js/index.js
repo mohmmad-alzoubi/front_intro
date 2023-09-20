@@ -152,3 +152,12 @@ do{
 }while(nums > 5)
     
 document.getElementById('texts').innerHTML = texts
+
+var backGroundButton = document.getElementById('changeBackGround');
+function changeBackGround1(){
+    if(document.body.style.backgroundColor == ""){
+        document.body.style.backgroundColor = "red"
+    }else{
+        document.body.style.backgroundColor = ""
+    }
+}
