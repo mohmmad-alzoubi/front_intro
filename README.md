@@ -12,6 +12,7 @@ Inline-style:
 | class 3      | github intro       | [contact page](https://mohmmad-alzoubi.github.io/front_intro/pages/contact.html)   |
 | class 4      | github intro       | [news page](https://mohmmad-alzoubi.github.io/front_intro/pages/news.html)   |
 | class 5      | github intro       | [js page](https://mohmmad-alzoubi.github.io/front_intro/pages/grid.html)   |
+| class 5      | github intro       | [image page](https://mohmmad-alzoubi.github.io/front_intro/pages/image.html)   |
 |    |         |       |
 
 

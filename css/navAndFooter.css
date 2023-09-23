@@ -73,3 +73,6 @@ button:hover{
 .active{
     background-color: green;
 }
+.btn-primary{
+    margin: 200px 0px 0px 600px;
+}
